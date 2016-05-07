@@ -1,0 +1,13 @@
+/* CSS Document */
+
+nav{
+	margin-bottom: .5em;
+	}
+
+
+nav .col {
+	background: none;
+	border: 1px solid #555;
+	text-align: center;
+	box-sizing: border-box;
+	padding: .5em;
