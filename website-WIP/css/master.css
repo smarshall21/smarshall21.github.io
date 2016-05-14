@@ -15,7 +15,7 @@ padding:100;
 margin:0;
 }
 p{
-color:#000
+color:#8F8764
 padding-bottom:16px;
 }
 
@@ -55,18 +55,18 @@ border-right:solid 2px #485C3E;
 ul.navlink li a.active{
 float:left;
 padding:0 23px;
-color:#8EAB7F;
-background-color:#2C3A26;
+
 display:block;
-border-left:solid 2px #485C3E;
-border-right:solid 2px #485C3E;
+
 width:auto;
 cursor:text;
 }
 /*-------------------------body---------------------------*/
 #body{
-background;
+
 background-color:#EFE3B1;
+
+
 
 
 }
