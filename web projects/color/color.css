@@ -1,0 +1,68 @@
+/* CSS Document */
+
+
+body {
+	
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #C98C42),
+	color-stop(1, #94DFFF)
+);
+background-image: -o-linear-gradient(top, #C98C42 0%, #94DFFF 100%);
+background-image: -moz-linear-gradient(top, #C98C42 0%, #94DFFF 100%);
+background-image: -webkit-linear-gradient(top, #C98C42 0%, #94DFFF 100%);
+background-image: -ms-linear-gradient(top, #C98C42 0%, #94DFFF 100%);
+background-image: linear-gradient(to top, #C98C42 0%, #94DFFF 100%);
+	}
+	
+	
+	#modes {
+		background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	right bottom,
+	color-stop(0, #D61E1E),
+	color-stop(0.51, #0022FF),
+	color-stop(1, #00CC03)
+);
+background-image: -o-linear-gradient(right, #D61E1E 0%, #0022FF 51%, #00CC03 100%);
+background-image: -moz-linear-gradient(right, #D61E1E 0%, #0022FF 51%, #00CC03 100%);
+background-image: -webkit-linear-gradient(right, #D61E1E 0%, #0022FF 51%, #00CC03 100%);
+background-image: -ms-linear-gradient(right, #D61E1E 0%, #0022FF 51%, #00CC03 100%);
+background-image: linear-gradient(to right, #D61E1E 0%, #0022FF 51%, #00CC03 100%);
+	}
+	
+	#smodes {
+		background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	right bottom,
+	color-stop(0, #FF00E1),
+	color-stop(0.5, #00FFEE),
+	color-stop(1, #FFEE00)
+);
+background-image: -o-linear-gradient(right, #FF00E1 0%, #00FFEE 50%, #FFEE00 100%);
+background-image: -moz-linear-gradient(right, #FF00E1 0%, #00FFEE 50%, #FFEE00 100%);
+background-image: -webkit-linear-gradient(right, #FF00E1 0%, #00FFEE 50%, #FFEE00 100%);
+background-image: -ms-linear-gradient(right, #FF00E1 0%, #00FFEE 50%, #FFEE00 100%);
+background-image: linear-gradient(to right, #FF00E1 0%, #00FFEE 50%, #FFEE00 100%);
+	}
+	
+	#primary {
+		background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	right bottom,
+	color-stop(0, #FF0000),
+	color-stop(0.5, #000DFF),
+	color-stop(1, #FFEE00)
+);
+background-image: -o-linear-gradient(right, #FF0000 0%, #000DFF 50%, #FFEE00 100%);
+background-image: -moz-linear-gradient(right, #FF0000 0%, #000DFF 50%, #FFEE00 100%);
+background-image: -webkit-linear-gradient(right, #FF0000 0%, #000DFF 50%, #FFEE00 100%);
+background-image: -ms-linear-gradient(right, #FF0000 0%, #000DFF 50%, #FFEE00 100%);
+background-image: linear-gradient(to right, #FF0000 0%, #000DFF 50%, #FFEE00 100%);
+	}
