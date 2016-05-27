@@ -1,0 +1,109 @@
+header {
+	
+	height: 6em; /* 16*6=96px */
+	text-align:center;
+	padding: 2em;
+	margin-bottom: .5em;
+	}
+
+
+.tuna {
+  /* steps causes the animation to chunk into 12 equal pieces */
+  animation: walk-cycle 1s steps(12) infinite;
+  background: url(http://stash.rachelnabors.com/img/codepen/tuna_sprite.png) 0 0 no-repeat; 
+  height: 200px;
+  width: 400px;
+  margin: 100px auto 0;
+}
+
+@keyframes walk-cycle {  
+  0% {background-position: 0 0; } 
+  100% {background-position: 0 -2391px; } /* Must be full height of sprite or skipping will happen.*/
+}
+
+
+
+
+
+/* CSS Document */
+
+/* helper style */
+.col {
+	
+	
+	}
+	
+/* main styles */
+
+body {
+	font-family: 'Merriweather', serif, light; 
+	font-size: 16px;
+	background-color:#EFE2B4;
+    
+	}
+	
+
+
+
+#container {
+	width: 80%;
+	margin: 0 auto;
+	}	
+	
+nav {
+	margin-bottom: .5em;
+	}	
+
+nav .col {
+	font-family: 'Merriweather', serif, light; 
+	background: #E63F45;
+	color:#EFE2B4;
+	border: .5px solid #555;
+	text-align: center;
+	box-sizing: border-box;
+	padding: .5em;
+		}
+		
+#banner {
+	height: 10em;
+	margin-bottom: .5em;
+	background: #ddd;
+	}
+	
+#main .col {
+	height: 6em;
+	}			
+
+/* type styles */
+
+h1 {
+	font-size: 3em; /* 3*16=48px */
+	color:#EFE2B4;
+	font-weight: 100;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: .5em;
+	background:#17322A;
+	}
+p{ 
+background:#E63F45;
+color:#EFE2B4;
+}
+header h2 {
+	font-size: .75em;
+	text-transform: uppercase;
+	font-family: 'Merriweather', serif, bold700; 
+	}
+
+h2 {
+	font-size: 2em;
+	}
+
+
+
+	
+	
+	
+	
+	
+			

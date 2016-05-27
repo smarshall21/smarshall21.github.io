@@ -4,7 +4,13 @@ body{font:11px/14px Georgia, ", Times, serif; color:#8F8764;}
 h1{font-size:10px}
 
 h2{font-size:23px}
+h1 {
+    font-size: 2.25em; /* 36px / 16px */
+    }
 
+h2 {
+    font-size: 2em; /* 32px / 16px */
+    }
 
 
 /*--------------nav style-----------------*/
